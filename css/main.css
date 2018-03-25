@@ -3,7 +3,12 @@ body {
     padding-top: 54px;
   }
   
-
+  .container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+   
+}
 .bg-image-full {
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
@@ -18,7 +23,7 @@ body {
     text-align: center;
     display:block;
     margin:0 auto;
-    font-size: 4em;
+    font-size: 3em;
     color: #2a7fffff;
 }
 .lead_spacer {
@@ -55,6 +60,12 @@ body {
     text-decoration: none;    
 }
 
+h2 {
+    font-size: 24px !important;
+}
+.like_h2{
+    font-size: 24px !important;
+}
 
 /*! Small devices (landscape phones, 576px and up) */
 @media (max-width: 575px) {
