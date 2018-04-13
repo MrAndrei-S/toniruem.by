@@ -67,6 +67,14 @@ h2 {
     font-size: 24px !important;
 }
 
+.foto_comment {
+    font-size: 11px;
+    color: #777;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 10px;
+}
+
 /*! Small devices (landscape phones, 576px and up) */
 @media (max-width: 575px) {
     .py-5 {
