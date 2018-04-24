@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
   <head>
-    <title>Тонировка стекол по Минску и минской области</title>
+    <title>Тонировка оконных стекол в Минске и Минской области</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
     <meta name="description" content="Тонировка и бронировка оконных и дверных стекол пленкой в Минске и Минской области без демонтажа окна. Быстро, аккуратно, доступно и с гарантией качества!">   
@@ -25,24 +25,28 @@
   </head>
 
   <body>
-
-    
+      <script type="text/JavaScript">        
+        function showMenu(id) {
+            var menu = document.getElementById(id);
+            menu.classList.toggle("show");
+        }
+      </script>    
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
           <div class="container">
             <a class="navbar-brand" href="/">Тонировка окон</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" onclick="showMenu('navbar-collapse'); return false;" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div id="navbar-collapse" class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="/">Главная
                     <span class="sr-only">(current)</span>
                   </a>
                 </li>                                     
-                <li class="nav-item  dropdown">
+                <li class="nav-item  dropdown" onclick="showMenu('dropdown-menu');  return false;">
                   <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Полезная информация</a>
-                  <div class="dropdown-menu">
+                  <div class="dropdown-menu" id="dropdown-menu">
                     <a class="dropdown-item" href="/info.html">Общая информация</a>
                     <a class="dropdown-item " href="/rekomenduem.html">Рекомендации по выбору</a>
                     <a class="dropdown-item " href="/produkt.html">Характеристики пленок</a>                
@@ -64,7 +68,7 @@
     <section class="py-5">
       <div class="container-fluid" itemscope itemtype="http://schema.org/Product">
         <div class="container">
-        <h1  itemprop="name">Тонировка дверных и оконных стекол</h1>        
+        <h1  itemprop="name">Тонировка оконных и дверных стекол</h1>        
         <br />
         <div class="row">
             <div class="col-sm-8">
@@ -403,8 +407,8 @@
     </div>
   </section>
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!--script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script-->
   <link href="vendor/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet">
   <!--link href="css/main.min.css" rel="stylesheet" type="text/css"-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
